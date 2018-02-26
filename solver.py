@@ -1,4 +1,5 @@
-def get_slices(row_count, column_count, min_ingredient, max_area, pizza):
+def get_slices(parameters, pizza):
+    row_count, column_count, min_ingredient, max_area = parameters
     results = []
     for r in range(row_count):
         row = pizza[r]
